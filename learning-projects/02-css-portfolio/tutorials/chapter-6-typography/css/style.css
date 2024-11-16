@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+
+body{
+  padding: 10%;
+  font-size: 2rem;
+  font-family: "Faculty Glyphic", sans-serif;
+}
+
+/* input, button {
+  font: inherit;
+} */
+
+p {
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+}
+
+.crossedout {
+  text-decoration: line-through;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
