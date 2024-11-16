@@ -1,0 +1,23 @@
+/*Element selector*/
+body {
+  font-size: 22px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+  color: blue
+}
+
+p {
+  color: purple;
+}
+
+/* class selector - the most common in CSS (starts with .)*/
+.gray {
+  color: gray;
+}
+
+/* ID selector - more specific. IDs should only exist once. Not good practice to use IDs in CSS - rarely if ever */
+#second {
+  font-style: italic;
+}
