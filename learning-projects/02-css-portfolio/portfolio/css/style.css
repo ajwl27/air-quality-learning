@@ -43,9 +43,20 @@ h1 {
 .left {
   float: left;
   margin-right: 1rem;
-  padding-left: 2rem;
+  padding-left: 0.5rem;
 }
 
 .profile {
-  height: 30vw;
+  height: 20vw;
+}
+
+section {
+  padding: 0, 0, 2rem, 2rem;
+  margin: 1rem;
+  display: flow-root;
+  align-self: center;
+}
+
+section p {
+  color: #563440;
 }
