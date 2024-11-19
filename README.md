@@ -9,17 +9,17 @@ Another obejective is to finally get more familiar with git, especially using br
 - `dashboard/`: Contains the final dashboard implementation
 
 ## Learning Projects
-1. HTML Basics: Simple webpage using HTML fundamentals
-2. CSS Portfolio: Personal portfolio page with CSS
+1. HTML Basics: Simple webpage using HTML fundamentals. I might come back to this and develop a few other simple pages as needed...
+2. CSS Portfolio: Personal portfolio page styled with CSS
 3. Weather Widget: Interactive weather display with JavaScript
 4. Development Tools: Modern development workflow setup
 
 ## Skills Covered
 - HTML5
-- CSS3
-- JavaScript
+- CSS3/Tailwind
+- JavaScript/TypeScript
 - React
-- Python (FastAPI)
+- REST APIs and FastAPI (Python)
 - Docker
 - Git/GitHub
 [Will be updated as I progress]
