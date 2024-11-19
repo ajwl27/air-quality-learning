@@ -1,7 +1,8 @@
-# Air Quality Dashboard (Learning Project) 
+# Air Quality Dashboard (Learning Project) - Learning Frontend Development
 
 ## Project Overview
-This repository documents my learning journey towards building an air quality dashboard. It contains  standalone learning projects and the final dashboard implementation which builds upon the skills I'll have (hopefully) developed.
+This repository documents my learning journey towards building an air quality dashboard. It contains  standalone learning projects and the final dashboard implementation which builds upon the skills I'll have (hopefully) developed. I'm doing this so that I have **some** frontend development experience, and so that when doing more advanced projects later down the line I am comfortable (or at least able) to write web-based interfaces. 
+Another obejective is to finally get more familiar with git, especially using branches.
 
 ## Repository Structure
 - `learning-projects/`: Contains all practice projects and exercises
@@ -32,4 +33,12 @@ This repository documents my learning journey towards building an air quality da
 3. Follow project-specific README instructions
 
 ## Learning Resources
-- [freeCodeCamp.org](https://www.freecodecamp.org/)
+- [freeCodeCamp.org](https://www.freecodecamp.org/) (and their [youtube channel](https://www.youtube.com/@freecodecamp))
+
+
+### Notes
+- Work on a branch for the subproject (git checkout -b example_branch # Create example_branch)
+- - add, commit and push changes to that branch
+- - checkout to main branch (git checkout main)
+- - merge from other branch to main (git merge example_branch)
+- - add, commit and push to main
