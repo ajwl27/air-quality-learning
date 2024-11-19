@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+
 body {
   font-size: 1.5rem;
   font-family: "Funnel Display", sans-serif;
@@ -6,10 +15,18 @@ body {
   text-transform: lowercase;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+section {
+  height: 100vh;
+}
+
+/* header, footer {
+  text-align: center;
+} */
+
+footer {
+  font-size: 1rem;
+  position:sticky;
+  bottom: 0;
 }
 
 li {
