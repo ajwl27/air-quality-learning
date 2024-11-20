@@ -22,7 +22,7 @@
     - Line-based placement: `grid-row: 1 / 3`
     - Negative indices target from end: `grid-column: 1 / -1`
   - Named grid areas for semantic layouts
-  - Can also use `grid-area` as shorthand for both `grid-row` and `grid-column`: `grid-area: 1 / 1 / 3 / 6;` sets `grid-row-start:1`, `grid-row-end:1`, `grid-column-start:3` and `grid-column-end:6`
+  - Can also use `grid-area` as shorthand for both `grid-row` and `grid-column`: `grid-area: 1 / 1 / 3 / 6;` sets `grid-row-start:1`, `grid-column-start:1` , `grid-row-end:3`,  and `grid-column-end:6`
 
 - Tracks & Gaps:
   - Row definition: `grid-template-rows`
