@@ -10,12 +10,12 @@
   - We can set a `min-width` to prevent the image being below a set size
 - You need to set `height:auto` if you set a `width` and want the image to scale evenly, and vice-versa
 
-#### <figure>
+#### `<figure>`
 - If we put an image into a `<figure>`, as we should, we style the image by:
   - Styling the class of the `figure` `.examplefigure{}` to `width:10%`
   - Styling the subclass: `.examplefigure img {width:100%; height: auto}`
 
-- We should use a <figcaption> for accessibility, but can hide it from the page:
+- We should use a `<figcaption>` for accessibility, but can hide it from the page:
   
   ```
   .offscreen {
