@@ -1,4 +1,4 @@
-### Notes
+### CSS Pseudo - Notes
 
 - Pseudo selectors include both pseudo classes as pseudo elements
 - A pseudo class is a selector that selects elements that are in a specififc state
