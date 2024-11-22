@@ -1,4 +1,4 @@
-### Notes
+### CSS Flexbox - Notes
 
 - There's a [game for learning flexbox](https://flexboxfroggy.com/) 
 
