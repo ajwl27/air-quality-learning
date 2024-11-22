@@ -1,4 +1,4 @@
-### Notes
+### CSS Selectors - Notes
 - Inline CSS (e.g. <p style="color:blue"> Example text</p>) is NOT good practice
 - CSS is executed in order, with later CSS rules overriding earlier ones.
 - Selectors with higher specificity (e.g. Class selectors vs element selectors) are executed with priority even if they're above the lower-specificity selector
