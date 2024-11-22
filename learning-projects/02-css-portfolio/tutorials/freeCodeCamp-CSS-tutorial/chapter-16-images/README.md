@@ -1,4 +1,4 @@
-### Notes
+### CSS Images - Notes
 
 #### Image basics
 - Images are not block-level elements- they are inline elements.
