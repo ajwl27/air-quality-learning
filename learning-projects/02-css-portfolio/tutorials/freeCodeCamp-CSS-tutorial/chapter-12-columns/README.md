@@ -1,4 +1,4 @@
-### Notes
+### CSS Columns - Notes
 - We can make a `<section>` and give its class the style `column-count: 4;`
 - By default, the columns won't be limited to 1 paragraph per column - content will spread across columns according to viewport size
 - If we define a `column-width` property, the columns will never be smaller than that value. Therefore if the viewport is too small, some columns will not be created
