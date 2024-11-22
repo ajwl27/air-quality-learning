@@ -1,4 +1,5 @@
-### Notes
+### CSS Position - Notes
+
 - Default position is `static`: Element follows normal document flow (in order)
 - `relative`: Like static but can move with `top/right/bottom/left`. The element's original space stays reserved
 - `absolute`: Floats freely, positions relative to nearest `position`ed parent
