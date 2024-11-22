@@ -1,4 +1,4 @@
-### Notes
+### CSS Media Queries - Notes
 
 - Responsive design, especially to viewport width, is essential so the site looks good on different devices
 - We add the meta tag `<meta name="viewport" content="width=device-width, initial-scale=1.0">` to the html file to enable media queries and allow responsive design. *VSCode automatically adds that tag to html templates created with the `!` emmet abreviation*
