@@ -1,4 +1,4 @@
-### Notes
+### CSS Units - Notes
 - Mozilla have a list of [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 - The only absolute value often used is px (pixels)
 - It's not good to use absolute font sizes, as accessibility features (font size options) on browsers won't rescale text with absolute (pixel) sizes
