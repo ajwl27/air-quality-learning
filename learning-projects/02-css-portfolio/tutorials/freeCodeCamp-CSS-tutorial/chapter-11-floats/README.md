@@ -1,3 +1,5 @@
+### CSS Floats - Notes
+
 - Floats were originally designed to wrap text around images, like in magazine layouts, but became widely used for creating multi-column layouts before modern layout methods like Flexbox and Grid
 - When you float an element (using `float: left` or `float: right`), it's taken out of the normal document flow and shifted to the left or right until it **touches the edge of its container or another floated element**
 - **Other elements will wrap around floated elements** - this is what creates the text-wrapping effect. However, container elements won't automatically expand to contain floated elements (known as collapsing)
