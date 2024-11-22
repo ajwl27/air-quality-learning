@@ -1,4 +1,4 @@
-### Notes
+### CSS Display - Notes
 - in the html file, the paragraphs are *block level elements*.
 - block level elements stack on top of each other and always create a new line
 - **block level elements** by default have 100% width (of their parent element, not necessarily of the whole viewport), and stack on top of each other
