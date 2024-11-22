@@ -1,4 +1,4 @@
-### Notes
+### CSS Grid Layout - Notes
 
 - Core Concepts:
   - Two-dimensional layout system (handles rows and columns simultaneously)
