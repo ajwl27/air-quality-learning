@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* colors */
+  --LIGHT-COLOR: #E7EBED;
+  --DARK-COLOR: #1F271B;
+  --TEXT-COLOR: #563440;
+  --FOOTER-BG-COLOR: var(--DARK-COLOR);
+   /*footer*/
+ 
+}
+
 html { scroll-behavior: smooth; }
 
 body {
@@ -27,6 +37,7 @@ footer {
   font-size: 1rem;
   position:sticky;
   bottom: 0;
+  background-color: var(--FOOTER-BG-COLOR)
 }
 
 li {
