@@ -63,7 +63,7 @@ textarea {
     --BGCOLOR: #000;
     --BGCOLOR-FADE: gray;
     --HEADER-COLOR: whitesmoke;
-    --NAV-BGCOLOR: rgb(20,20,20);
+    --NAV-BGCOLOR: rgb(20, 20, 20);
     --HERO-COLOR: #333;
     --BODY-BGCOLOR: #333;
     --FONT-COLOR: whitesmoke;
@@ -71,7 +71,7 @@ textarea {
     --BORDER-COLOR: whitesmoke;
     --LINK-COLOR: whitesmoke;
     --LINK-COLOR: orange;
-    --LINK-ACTIVE: rgb(252,200,103);
+    --LINK-ACTIVE: rgb(252, 200, 103);
     --BUTTON-COLOR: #000;
   }
 }
@@ -321,7 +321,6 @@ tr {
   place-content: center;
 }
 
-
 .menu__header,
 .menu__item {
   width: 100%;
@@ -334,11 +333,11 @@ tr {
   place-content: center;
 }
 
-thead th:first-child{
+thead th:first-child {
   border-top-left-radius: var(--BORDER-RADIUS);
 }
 
-thead th:last-child{
+thead th:last-child {
   border-top-right-radius: var(--BORDER-RADIUS);
 }
 
@@ -350,16 +349,18 @@ tfoot td:last-child {
   border-bottom-left-radius: var(--BORDER-RADIUS);
 }
 
-
-@media screen and (min-width:576px) {
+@media screen and (min-width: 576px) {
   .header__h1::before {
-    content: '🌮 ';
+    content: "🌮 ";
   }
   .header__h1::after {
-    content: ' 🌮';
+    content: " 🌮";
   }
 
-  .menu__header, .menu__cr, .menu__cs, .menu__sf {
+  .menu__header,
+  .menu__cr,
+  .menu__cs,
+  .menu__sf {
     font-size: 125%;
   }
 }
