@@ -1,18 +1,20 @@
+/* import font*/
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
 
+/* css reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*variables*/
 :root {
   /* colors */
   --LIGHT-COLOR: #E7EBED;
   --DARK-COLOR: #1F271B;
   --TEXT-COLOR: #563440;
   --FOOTER-BG-COLOR: var(--DARK-COLOR);
-   /*footer*/
  
 }
 
@@ -29,9 +31,6 @@ section {
   height: 100vh;
 }
 
-/* header, footer {
-  text-align: center;
-} */
 
 footer {
   font-size: 1rem;
