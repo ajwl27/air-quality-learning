@@ -22,26 +22,47 @@
   --font-size-base: 1.5rem;
   --font-size-small: 1rem;
   --font-size-title: 3.5rem;
+  --hero-title-fs: 6rem;
   /* layout */
   --spacing-small: 0.5rem;
   --spacing-medium: 1rem;
   --spacing-large: 2rem;
 }
+main {
+  width: 100%;
+}
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+  
 }
 
 body {
   font-size: var(--font-size-base);
   font-family: var(--font-family);
   background-color: var(--color-background);
-  
   position: relative;
 }
 
 .nowrap {
   white-space: nowrap;
+}
+
+.hero {
+  background-image: url(../images/creative-french-no-man-guy.png), url(../images/pattern6.svg);
+  background-repeat: no-repeat, repeat  ;
+  background-size: 70vh, 15%;
+  background-position: center bottom;
+  min-height: 55vh;
+}
+
+.hero__title {
+  font-size: var(--hero-title-fs);
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 5rem;
+  color: var(--color-secondary);
 }
 
 .header {
@@ -77,13 +98,18 @@ body {
   padding-left: var(--spacing-large);
 }
 
-.main-nav__link {
+.main-nav__link,
+.footer-nav__link {
   color: var(--color-accent);
   text-decoration: none;
 }
 
+
+
 .main-nav__link:hover,
-.main-nav__link:focus {
+.main-nav__link:focus-visible,
+.footer-nav__link:hover,
+.footer-nav__link:focus {
   color: var(--color-accent-hover);
 }
 
@@ -99,6 +125,7 @@ body {
   display: flow-root;
   align-self: center;
   height: 100vh;
+  
 }
 
 .section__heading {
@@ -152,21 +179,12 @@ body {
   font-size: var(--font-size-base);
 }
 
-.footer-nav__link {
-  color: var(--color-accent);
-  text-decoration: none;
-}
 
 .footer-nav__link--icon {
   display: inline-block;
   width: 1.5em;
   height: auto;
   padding: 0;
-}
-
-.footer-nav__link:hover,
-.footer-nav__link:focus {
-  color: var(--color-accent-hover);
 }
 
 .section__content {
