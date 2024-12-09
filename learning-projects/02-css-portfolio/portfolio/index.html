@@ -9,36 +9,32 @@
     <link rel="icon" href="images/favicon.png" />
     <link rel="stylesheet" href="css/style.css" />
     <!-- Place this tag in your head or just before your close body tag. -->
-
   </head>
 
   <body>
-    <section class="hero">
-      <div class="hero__header">
-        
-        <nav class="main-nav">
-          <ul class="main-nav__list">
-            <li class="main-nav__item">
-              <a href="#about" class="main-nav__link">About</a>
-            </li>
-            <li class="main-nav__item">
-              <a href="#photography" class="main-nav__link">Photography</a>
-            </li>
-            <li class="main-nav__item">
-              <a href="#projects" class="main-nav__link">Projects</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="https://github.com/ajwl27" aria-label="Follow @ajwl27 on GitHub"><img class="main-nav__link--icon" src="images/github-mark-white.svg" alt="github logo" width="30"></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-    </section>
-
     <header class="header">
-      <h1 class="header__title">Anthony Lindley</h1>
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="#about" class="main-nav__link">About</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#photography" class="main-nav__link">Photography</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#projects" class="main-nav__link">Projects</a>
+          </li>
+          
+        </ul>
+      </nav>
     </header>
+
+    <section class="hero">
+      <div class="hero__header"></div>
+    </section>
+    <section class="title">
+      <h1 class="header__title">Anthony Lindley</h1>
+    </section>
 
     <section class="section section--about" id="about">
       <div class="section__image-container--left">
@@ -100,9 +96,31 @@
     </section>
 
     <footer class="footer">
-      <h1 class="footer__heading">
-        <a href="mailito:test@test.com" class="footer__link">email me</a>
-      </h1>
+      <nav class="footer-nav">
+        <!-- Left-aligned links - right now there's only github but socials could be added to the list easily -->
+        <ul class="footer-nav__list footer-nav__list--left">
+          <li class="footer-nav__item">
+            <a
+              class="footer-nav__link"
+              href="https://github.com/ajwl27"
+              aria-label="Follow @ajwl27 on GitHub"
+            >
+              <img
+                class="footer-nav__link--icon"
+                src="images/github-mark-white.svg"
+                alt="github logo"
+                width="30"
+              />
+            </a>
+          </li>
+        </ul>
+        <!-- Right-aligned link -->
+        <ul class="footer-nav__list footer-nav__list--right">
+          <li class="footer-nav__item">
+            <a href="mailto:test@test.com" class="footer-nav__link">email me</a>
+          </li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>
