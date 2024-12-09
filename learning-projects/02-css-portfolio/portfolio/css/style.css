@@ -68,6 +68,10 @@ body {
   color: var(--color-accent-hover);
 }
 
+.main-nav__link--icon {
+  width: 1.25em;
+}
+
 .header {
   margin: var(--spacing-large);
 }
@@ -107,5 +111,4 @@ body {
 
 .section__content {
   color: var(--color-secondary);
-  padding: ;
 }

@@ -8,30 +8,53 @@
     <title>Portfolio</title>
     <link rel="icon" href="images/favicon.png" />
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Place this tag in your head or just before your close body tag. -->
+
   </head>
 
   <body>
-    <nav class="main-nav">
-      <ul class="main-nav__list">
-        <li class="main-nav__item"><a href="#about" class="main-nav__link">About</a></li>
-        <li class="main-nav__item"><a href="#photography" class="main-nav__link">Photography</a></li>
-        <li class="main-nav__item"><a href="#projects" class="main-nav__link">Projects</a></li>
-      </ul>
-    </nav>
+    <section class="hero">
+      <div class="hero__header">
+        
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="#about" class="main-nav__link">About</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#photography" class="main-nav__link">Photography</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#projects" class="main-nav__link">Projects</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="https://github.com/ajwl27" aria-label="Follow @ajwl27 on GitHub"><img class="main-nav__link--icon" src="images/github-mark-white.svg" alt="github logo" width="30"></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    </section>
+
     <header class="header">
       <h1 class="header__title">Anthony Lindley</h1>
     </header>
+
     <section class="section section--about" id="about">
       <div class="section__image-container--left">
-        <img src="images/me.jpg" alt="photo of me" class="section__image--medium" />
+        <img
+          src="images/me.jpg"
+          alt="photo of me"
+          class="section__image--medium"
+        />
       </div>
       <h1 class="section__heading">About</h1>
       <article class="section__content">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus
-          a veritatis ipsa aliquam expedita facilis. Laudantium minima sed, quia
-          ullam magni culpa doloremque quae aliquam voluptates vel aperiam
-          corporis.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+          accusamus a veritatis ipsa aliquam expedita facilis. Laudantium minima
+          sed, quia ullam magni culpa doloremque quae aliquam voluptates vel
+          aperiam corporis.
         </p>
         <p>
           Pariatur, magnam iste? Dolor, laborum recusandae ratione maiores
@@ -45,10 +68,10 @@
       <h1 class="section__heading">Photography</h1>
       <article class="section__content">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus
-          a veritatis ipsa aliquam expedita facilis. Laudantium minima sed, quia
-          ullam magni culpa doloremque quae aliquam voluptates vel aperiam
-          corporis.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+          accusamus a veritatis ipsa aliquam expedita facilis. Laudantium minima
+          sed, quia ullam magni culpa doloremque quae aliquam voluptates vel
+          aperiam corporis.
         </p>
         <p>
           Pariatur, magnam iste? Dolor, laborum recusandae ratione maiores
@@ -62,10 +85,10 @@
       <h1 class="section__heading">Projects</h1>
       <article class="section__content">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus
-          a veritatis ipsa aliquam expedita facilis. Laudantium minima sed, quia
-          ullam magni culpa doloremque quae aliquam voluptates vel aperiam
-          corporis.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+          accusamus a veritatis ipsa aliquam expedita facilis. Laudantium minima
+          sed, quia ullam magni culpa doloremque quae aliquam voluptates vel
+          aperiam corporis.
         </p>
         <p>
           Pariatur, magnam iste? Dolor, laborum recusandae ratione maiores
@@ -77,7 +100,9 @@
     </section>
 
     <footer class="footer">
-      <h1 class="footer__heading"><a href="mailito:test@test.com" class="footer__link">email me</a></h1>
+      <h1 class="footer__heading">
+        <a href="mailito:test@test.com" class="footer__link">email me</a>
+      </h1>
     </footer>
   </body>
 </html>
